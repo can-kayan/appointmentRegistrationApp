@@ -1,0 +1,127 @@
+--CREATE DATABASE WeddingApp;
+use WeddingApp
+--CREATE TABLE [dbo].[Appointments] (
+--        [UniqueID] [int] IDENTITY (1, 1) NOT NULL,
+--        [Type] [int] NULL,
+--        [StartDate] [smalldatetime] NULL,
+--        [EndDate] [smalldatetime] NULL,
+--        [AllDay] [bit] NULL,
+--        [Subject] [nvarchar] (max) NULL,
+--        [Location] [nvarchar] (max) NULL,
+--        [Description] [nvarchar](max) NULL,
+--        [Status] [int] NULL,
+--        [Label] [int] NULL,
+--        [ResourceID] [int] NULL,
+--        [ResourceIDs] [nvarchar](max) NULL,
+--        [ReminderInfo] [nvarchar](max) NULL,
+--        [RecurrenceInfo] [nvarchar](max) NULL,
+--        [TimeZoneId] [nvarchar](max) NULL,
+--        [CustomField1] [nvarchar](max) NULL ,
+--		[PhoneNumber][nvarchar](max)null,
+--		[Mail][nvarchar](max) null,
+--		[Price][int]null,
+--		[GivenPrice][int]null,
+--		[RemainingPrice][int]null,
+--		[Food][bit] null,
+--		[Hall][nvarchar](max)null
+--CONSTRAINT [PK_Appointments] PRIMARY KEY CLUSTERED
+--(
+--        [UniqueID] ASC
+--)
+--) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+--GO
+
+--CREATE TABLE [dbo].[Resources] (
+--        [UniqueID] [int] IDENTITY (1, 1) NOT NULL,
+--        [ResourceID] [int] NOT NULL,
+--        [ResourceName] [nvarchar] (50) NULL,
+--        [Color] [int] NULL,
+--        [Image] [image] NULL,
+--        [CustomField1] [nvarchar](max) NULL 
+--CONSTRAINT [PK_Resources] PRIMARY KEY CLUSTERED
+--(
+--        [UniqueID] ASC
+--)
+--) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+--GO
+
+--SET IDENTITY_INSERT [dbo].[Resources] ON
+--INSERT [dbo].[Resources] ([UniqueID], [ResourceID], [ResourceName], [Color], [Image], [CustomField1]) VALUES (1, 1, N'Resource One', NULL, NULL, NULL)
+--INSERT [dbo].[Resources] ([UniqueID], [ResourceID], [ResourceName], [Color], [Image], [CustomField1]) VALUES (2, 2, N'Resource Two', NULL, NULL, NULL)
+--INSERT [dbo].[Resources] ([UniqueID], [ResourceID], [ResourceName], [Color], [Image], [CustomField1]) VALUES (3, 3, N'Resource Three', NULL, NULL, NULL)
+--SET IDENTITY_INSERT [dbo].[Resources] OFF
+
+--GO
+--CREATE TABLE [dbo].[Information] (
+--        [UniqueID] [int] IDENTITY (1, 1) NOT NULL,
+--		[ID] [int]not null,
+--		[StartDate][datetime]null,
+--		[Subject][nvarchar](max)null,
+--		[Location][nvarchar](max)null,
+--		[Description][nvarchar](max) null,
+--		[Hall][nvarchar](max)null,
+--		[PhoneNumber][nvarchar](max)null,
+--		[Mail][nvarchar](max)null,
+--		[Price][int]null,
+--		[GivenPrice][int]null,
+--		[RemainingPrice][int]null
+--CONSTRAINT [PK_Information] PRIMARY KEY CLUSTERED
+--(
+--        [UniqueID] ASC
+--)
+--) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+--GO
+--CREATE TABLE [dbo].[HallCustom] (
+--        [UniqueID] [int] IDENTITY (1, 1) NOT NULL,
+--		[ID] [int]not null,
+--		[Name][nvarchar](max)null,
+--		[Color][nvarchar](max)null,
+--		[PersonCount][nvarchar](max)null
+--CONSTRAINT [PK_HallCustom] PRIMARY KEY CLUSTERED
+--(
+--        [UniqueID] ASC
+--)
+--) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+--GO
+--CREATE TABLE [dbo].[ChartOption](
+--	[UniqueID] [int] IDENTITY (1,1) NOT NULL,
+--	[Name][nvarchar](max)not null,
+--	[Typee][nvarchar](max)not null,
+--	[Showi][bit]null
+--	CONSTRAINT [PK_ChartOption] PRIMARY KEY CLUSTERED
+--	([UniqueID] ASC)
+--)
+--on [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+--GO
+--CREATE TABLE [dbo].[History](
+--	[UniqueID] [int] IDENTITY (1,1) NOT NULL,
+--	[Process][nvarchar](max)not null,
+--	[DateTime][smalldatetime] null,
+--	[Name][nvarchar](max)null,
+--	[PhoneNumber][nvarchar](max)null,
+--	[RemainingPrice][int] null,
+
+--	CONSTRAINT [PK_History] PRIMARY KEY CLUSTERED
+--	([UniqueID] ASC)
+--)
+--on [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+--GO
+
+--Create Table [dbo].[DisplaySettings](
+--	[UniqueID] [int] identity (1,1) Not null,
+--	[Name][nvarchar](max)null,
+--	[TandF][bit]null,
+--	[Description][nvarchar](max)null
+
+--	constraint [PK_Settings] primary key clustered
+--	([UniqueID] asc)
+--)
+--on [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+--go
+
+--alter table [dbo].[Appointments] add [MailCheck][bit] null
+--go
