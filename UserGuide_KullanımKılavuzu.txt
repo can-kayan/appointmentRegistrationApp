@@ -1,0 +1,23 @@
+
+Things to do after downloading the file:
+1-Grant access to resx files
+2-Create the database (I used mssql), paste the database connection path with the required place, don't forget to replace the links in the tables with your own link
+3-If you don't have the devExpress file, this application will not work, some objects were made using devExpress (I will share the devexpress files later)
+
+If you proceed to add user records directly after making the installation settings, they will not appear in the tables, first of all, you need to make the tables you want visible from the settings> table settings section.If there is a place that you do not understand and cannot find, you can use the help menu.
+
+
+
+
+
+Dosyayı indirdikten sonra yapılması gerekenler:
+1-resx uzantılı dosyalara erişim izni verin
+2-veri tabanını oluşturun (ben mssql kullandım) , gerekli yerle veri tabanı bağlantı yolunu yapıştırın,tablolardaki bağlantıları kendi bağlantınız ile değiştirmeyi unutmayın 
+3-DevExpress dosyasına sahip değilseniz bu uygulama çalışmaz bazı nesneler devExpress kullanılarak yapıldı(daha sonra devexpress dosyalarını paylaşacağım) 
+
+kurulum ayarlarını yaptıktan sonra direkt kullanıcı kayıt ekleme işlemine geçerseniz tablolarda gözükmez öncelikle ayarlar > tablo ayarları kısmından istediğiniz tabloları görünür yapmanız gerek. Anlamadığınız ve bulamadığınız bir yer olursa yardım menüsünü kullanabilirsiniz.
+
+
+
+
+
