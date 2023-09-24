@@ -14,4 +14,4 @@ If you proceed to add user records directly after making the installation settin
 
 
 
-![GitHub Logo]([https://github.com/kullanici/ornek-repo/blob/main/resim.png](https://github.com/Cank01/appointmentRegistrationApp-main/blob/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-09-24%20215958.png)https://github.com/Cank01/appointmentRegistrationApp-main/blob/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-09-24%20215958.png)
+![Home](https://github.com/Cank01/appointmentRegistrationApp-main/blob/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-09-24%20215958.png)
