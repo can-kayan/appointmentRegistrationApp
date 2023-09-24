@@ -15,3 +15,9 @@ If you proceed to add user records directly after making the installation settin
 
 
 ![Home](https://github.com/Cank01/appointmentRegistrationApp-main/blob/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-09-24%20215958.png)
+![Home](https://github.com/Cank01/appointmentRegistrationApp-main/blob/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-09-24%20220026.png?raw=true)
+![Home](https://github.com/Cank01/appointmentRegistrationApp-main/blob/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-09-24%20220056.png?raw=true)
+![Home](https://github.com/Cank01/appointmentRegistrationApp-main/blob/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-09-24%20220109.png?raw=true)
+![Home](https://github.com/Cank01/appointmentRegistrationApp-main/blob/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-09-24%20220117.png?raw=true)
+![Home](https://github.com/Cank01/appointmentRegistrationApp-main/blob/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-09-24%20220137.png?raw=true)
+![Home](https://github.com/Cank01/appointmentRegistrationApp-main/blob/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-09-24%20220156.png?raw=true)
